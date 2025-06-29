@@ -112,7 +112,7 @@ function MathWritingModule() {
 
 function App() {
   const [module, setModule] = useState<null | 'graph' | 'math'>(null);
-  const [functionExpression, setFunctionExpression] = useState('x^2');
+  const [functionExpression, setFunctionExpression] = useState('');
   const [settings, setSettings] = useState<GraphSettings>({
     xMin: -10,
     xMax: 10,
